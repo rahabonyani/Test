@@ -1,0 +1,125 @@
+const appTheme = {
+    roundness: {
+      none: 'none',
+      small: '2px',
+      large: '5px',
+      circle: '50%',
+      pill: '50rem',
+    },
+  
+    spacing: {
+      px: '1px',
+      '0': '0',
+      '1': '0.25rem',
+      '2': '0.5rem',
+      '3': '0.75rem',
+      '4': '1rem',
+      '5': '1.25rem',
+      '6': '1.5rem',
+      '7': '1.8rem',
+      '8': '2rem',
+      '10': '2.5rem',
+      '12': '3rem',
+      '16': '4rem',
+      '20': '5rem',
+      '24': '6rem',
+      '32': '8rem',
+      '40': '10rem',
+      '48': '12rem',
+      '56': '14rem',
+      '64': '16rem',
+    },
+  
+    borderWidth: {
+      '0': '0',
+      '1': '1px',
+      '2': '2px',
+      '4': '4px',
+      '8': '8px',
+    },
+  
+    borderRadius: {
+      none: '0',
+      xs: '0.06rem',
+      sm: '0.125rem',
+      md: '0.25rem',
+      lg: '0.375rem',
+      xl: '0.5rem',
+      xxl: '0.8rem',
+      xxxl: '1rem',
+      full: '9999px',
+    },
+  
+    fontFamily: {
+      default: " 'Source Sans Pro', sans-serif ",
+    },
+  
+    fontSize: {
+      xs: '0.686rem',
+      sm: '0.875rem',
+      md: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '4rem',
+      '7xl': '7rem',
+    },
+  
+    fontWeight: {
+      hairline: '100',
+      thin: '200',
+      light: '300',
+      normal: '400',
+      medium: '500',
+      semibold: '600',
+      bold: '700',
+      extrabold: '800',
+      black: '900',
+    },
+  
+    letterSpacing: {
+      tighter: '-0.05em',
+      tight: '-0.025em',
+      normal: '0',
+      wide: '0.025em',
+      wider: '0.05em',
+      widest: '0.1em',
+    },
+  
+    screens: {
+      xs: '450px',
+      sm: '576px',
+      md: '768px',
+      lg: '992px',
+      xl: '1200px',
+    },
+  
+    colors: {
+      transparent: 'transparent',
+      light: 'white',
+      dark: 'black',
+      lightGreen : '#4DB6AC',
+      lightRed : '#E57373',
+      lightPurple : '#BA68C8',
+      skyBlue : '#64B5F6',
+      lightIndigo : '#7986CB',
+      lightblue : '#0288D1',
+      gray : '#B8B8B8',
+      orange : '#CC7D06',
+      darkPink : '#EB5757',
+      yellow : '#FBC02D',
+      Green : '#00897B',
+      red :'#E53935',
+      purple : '#8E24AA',
+      blue : '8E24AA',
+      indigo : '#3949AB',
+      borderColor: '#aeaeae',
+      lightGray: '#F9F9F9',
+
+    },
+  };
+  
+  export default appTheme;
